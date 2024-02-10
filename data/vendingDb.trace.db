@@ -1,0 +1,12 @@
+2024-02-09 22:23:47.314055+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER_TABLE" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.deposit,u1_0.password,u1_0.role,u1_0.user_name from user_table u1_0 [42104-224]
+2024-02-09 22:24:00.363787+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER_TABLE" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.deposit,u1_0.password,u1_0.role,u1_0.user_name from user_table u1_0 [42104-224]
+2024-02-09 22:25:30.700584+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.deposit,u1_0.password,u1_0.role,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.deposit,u1_0.password,u1_0.role,u1_0.user_name from user u1_0 [42001-224]
+2024-02-09 22:28:12.053360+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.deposit,u1_0.password,u1_0.role,u1_0.user_name from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.deposit,u1_0.password,u1_0.role,u1_0.user_name from user u1_0 [42001-224]
